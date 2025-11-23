@@ -1,0 +1,15 @@
+:root{ --bg:#f7f9f7; --green:#7cc79f; --green-dark:#54a67b; --grey:#4a4a4a; --white:#ffffff; }
+*{ box-sizing:border-box }
+html,body{ padding:0; margin:0; font-family:Inter,ui-sans-serif,system-ui,Segoe UI,Roboto,Helvetica,Arial; background:var(--bg); color:var(--grey); }
+.container{ max-width:960px; margin:0 auto; padding:24px; }
+.header{ display:flex; align-items:center; justify-content:space-between; margin-bottom:16px; }
+.brand{ font-weight:800; letter-spacing:0.3px; color:var(--green-dark); }
+.card{ background:var(--white); border:1px solid #e6efe6; border-radius:16px; box-shadow:0 6px 20px rgba(0,0,0,0.06); padding:16px; }
+.controls{ display:flex; gap:12px; flex-wrap:wrap; align-items:center; }
+.button{ background:var(--green); color:#0b2b1a; border:none; border-radius:10px; padding:10px 14px; font-weight:700; cursor:pointer; transition:transform .06s ease, box-shadow .2s ease; box-shadow:0 2px 0 rgba(0,0,0,.12); }
+.button:hover{ transform:translateY(-1px) }
+.button.secondary{ background:#eaf6ef; color:#215a3f }
+.meta{ color:#6b6b6b; font-size:13px }
+.status{ font-size:12px; color:#2e624b }
+.canvasWrap{ display:flex; justify-content:center; background:linear-gradient(180deg,#ffffff, #f3fbf6); border:1px solid #e8efe8; border-radius:14px; padding:12px; }
+.badge{ display:inline-block; background:#e9f6ee; color:#2f7453; padding:3px 8px; border-radius:999px; font-size:12px; font-weight:700; }
